@@ -1,5 +1,5 @@
 from conex import conectar_bd
-import _mysql_connector
+import mysql.connector
 
 def leer_registro(conexion):
     cursor = conexion.cursor()
